@@ -4,34 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Basic Counter</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-
-
-    <div class="container">
-        <div class="box">
-
-
-            <h1 class="input">COUNTER</h1>
-            <br>
-            <h1 id="number">0</h1>
-            <br>
+    <div class="content">
+        <div class="counter">
+            <h1>COUNTER</h1>
+            <div class="counter-box" id="number">0</div>
             <div class="btns">
-
-                <button class="btn" id="increment">INCREMENT</button>
-                <button class="btn" id="decrement">DECREMENT</button>
-                <button class="btn" id="neutral">NEUTRAL</button>
-
+                <button class="increment-btn button">INCREMENT</button>
+                <button class="decrement-btn button">DECREMENT</button>
+                <button class="neutral-btn button">NEUTRAL</button>
             </div>
+            <button class="save-btn button">SAVE</button>
+        </div>
 
+        <div class="entries">
+            <p>SAVE / ENTRIES</p>
+            <div class="entries-field" id="save"></div>
         </div>
     </div>
 
-
-    <script src="index.js"></script>
+    <script src="app.js"></script>
 </body>
-
 
 </html>
